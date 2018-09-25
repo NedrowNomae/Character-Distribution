@@ -128,9 +128,9 @@ for R in range(0,E-1):
 for Y in range(0,T):
     sor.remove(0)
 print(T)
-print(sor)
-U = len(sor)
-for I in range(0,I)
+#print("sor: " + str(sor))
+sor.sorted()
+print("ros" + str(ros))
 """
 mog = sorted(sor)
 print(mog)
