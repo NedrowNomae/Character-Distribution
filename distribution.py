@@ -118,6 +118,6 @@ for W in range(0,Q-1):
         n = n + 1
     elif letters[W] == "m" or letters[W] == "M":
         m = m + 1
-sort = list[q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m]
+sort = [q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m]
 sort.sorted()
 print(sort)
