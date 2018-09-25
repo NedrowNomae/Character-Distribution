@@ -119,6 +119,13 @@ for W in range(0,Q-1):
     elif letters[W] == "m" or letters[W] == "M":
         m = m + 1
 list = [q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m]
-sort = list[]
-sort.sorted()
-print(sort)
+E = len(list)
+sor = list
+for R in range(0,E-1):
+    if sor[R] == '0':
+        sor.pop(R)
+print(sor)
+"""
+mog = sorted(sor)
+print(mog)
+"""
