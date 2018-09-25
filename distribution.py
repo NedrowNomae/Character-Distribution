@@ -129,9 +129,6 @@ for Y in range(0,T):
     sor.remove(0)
 print(T)
 #print("sor: " + str(sor))
-sor.sorted()
+ros = sorted(sor)
 print("ros" + str(ros))
-"""
-mog = sorted(sor)
-print(mog)
-"""
+
