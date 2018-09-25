@@ -36,7 +36,7 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
-"""
+
 string = input("Please enter a string of text (the bigger the better): ")
 letters = list(string)
 q=0
@@ -132,7 +132,3 @@ print(T)
 #print("sor: " + str(sor))
 ros = sorted(sor)
 print("ros" + str(ros))
-"""
-from collections import Counter
-string = input("Please enter a string of text (the bigger the better): ")
-Counter(words).values()
