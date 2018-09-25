@@ -121,9 +121,10 @@ for W in range(0,Q-1):
 list = [q,w,e,r,t,y,u,i,o,p,a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m]
 E = len(list)
 sor = list
-for R in range(0,E-1):
-    if sor[R] == '0':
-        sor.pop(R)
+for R in range(E-1,0):
+    print(sor[R])
+    #if sor[R] == 0:
+        #sor.pop(R)
 print(sor)
 """
 mog = sorted(sor)
