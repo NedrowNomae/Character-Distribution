@@ -36,7 +36,7 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
-
+#from collections import Counter
 string = input("Please enter a string of text (the bigger the better): ")
 letters = list(string)
 q=0
@@ -128,7 +128,45 @@ for R in range(0,E-1):
         T = T + 1
 for Y in range(0,T):
     sor.remove(0)
-print(T)
+#print(T)
 #print("sor: " + str(sor))
 ros = sorted(sor)
-print("ros" + str(ros))
+ros.reverse()
+#print("ros" + str(ros))
+numms = []
+for S in ros:
+    if S not in numms:
+        numms.append(S)
+#print(numms)
+qwert = ""
+A = len(numms)
+for D in range(0,A):
+    if numms[D] == a:
+        qwert = qwert + a*"a"
+    if numms[D] == b:
+        qwert = qwert + b*"b"
+    if numms[D] == c:
+        qwert = qwert + c*"c"
+    if numms[D] == d:
+        qwert = qwert + d*"d"
+    if numms[D] == e:
+        qwert = qwert + e*"e"
+    if numms[D] == f:
+        qwert = qwert + f*"f"
+    if numms[D] == g:
+        qwert = qwert + g*"g"
+    if numms[D] == h:
+        qwert = qwert + h*"h"    
+    if numms[D] == i:
+        qwert = qwert + i*"i"
+    if numms[D] == j:
+        qwert = qwert + j*"j"
+    if numms[D] == k:
+        qwert = qwert + k*"k"
+    if numms[D] == l:
+        qwert = qwert + l*"l"
+    if numms[D] == m:
+        qwert = qwert + m*"m"
+    if numms[D] == n:
+        qwert = qwert + n*"n"
+print(qwert)
