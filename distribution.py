@@ -138,6 +138,7 @@ for S in ros:
     if S not in numms:
         numms.append(S)
 #print(numms)
+numms.pop()
 qwert = ""
 A = len(numms)
 for D in range(0,A):
