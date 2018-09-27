@@ -169,4 +169,28 @@ for D in range(0,A):
         qwert = qwert + m*"m"
     if numms[D] == n:
         qwert = qwert + n*"n"
+    if numms[D] == o:
+        qwert = qwert + o*"o"
+    if numms[D] == p:
+        qwert = qwert + p*"p"
+    if numms[D] == q:
+        qwert = qwert + q*"q"
+    if numms[D] == r:
+        qwert = qwert + r*"r"
+    if numms[D] == x:
+        qwert = qwert + x*"x"
+    if numms[D] == t:
+        qwert = qwert + t*"t"
+    if numms[D] == u:
+        qwert = qwert + u*"u"
+    if numms[D] == v:
+        qwert = qwert + v*"v"
+    if numms[D] == w:
+        qwert = qwert + w*"w"
+    if numms[D] == x:
+        qwert = qwert + x*"x"
+    if numms[D] == y:
+        qwert = qwert + y*"y"
+    if numms[D] == z:
+        qwert = qwert + z*"z"
 print(qwert)
