@@ -95,7 +95,7 @@ for W in range(0,Q):
         d = d + 1
     elif letters[W] == "f" or letters[W] == "F":
         f = f + 1
-    elif letters[W] == "u" or letters[W] == "G":
+    elif letters[W] == "g" or letters[W] == "G":
         g = g + 1
     elif letters[W] == "h" or letters[W] == "H":
         h = h + 1
