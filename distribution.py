@@ -142,55 +142,80 @@ qwert = ""
 A = len(numms)
 for D in range(0,A):
     if numms[D] == a:
-        qwert = qwert + a*"a"
+        qwert = a*"a"
+        print(qwert)
     if numms[D] == b:
-        qwert = qwert + b*"b"
+        qwert = b*"b"
+        print(qwert)
     if numms[D] == c:
-        qwert = qwert + c*"c"
+        qwert = c*"c"
+        print(qwert)
     if numms[D] == d:
-        qwert = qwert + d*"d"
+        qwert = d*"d"
+        print(qwert)
     if numms[D] == e:
-        qwert = qwert + e*"e"
+        qwert = e*"e"
+        print(qwert)
     if numms[D] == f:
-        qwert = qwert + f*"f"
+        qwert = f*"f"
+        print(qwert)
     if numms[D] == g:
-        qwert = qwert + g*"g"
+        qwert = g*"g"
+        print(qwert)
     if numms[D] == h:
-        qwert = qwert + h*"h"    
+        qwert = h*"h"
+        print(qwert)
     if numms[D] == i:
-        qwert = qwert + i*"i"
+        qwert = i*"i"
+        print(qwert)
     if numms[D] == j:
-        qwert = qwert + j*"j"
+        qwert = j*"j"
+        print(qwert)
     if numms[D] == k:
-        qwert = qwert + k*"k"
+        qwert = k*"k"
+        print(qwert)
     if numms[D] == l:
-        qwert = qwert + l*"l"
+        qwert = l*"l"
+        print(qwert)
     if numms[D] == m:
-        qwert = qwert + m*"m"
+        qwert = m*"m"
+        print(qwert)
     if numms[D] == n:
-        qwert = qwert + n*"n"
+        qwert = n*"n"
+        print(qwert)
     if numms[D] == o:
-        qwert = qwert + o*"o"
+        qwert = o*"o"
+        print(qwert)
     if numms[D] == p:
-        qwert = qwert + p*"p"
+        qwert = p*"p"
+        print(qwert)
     if numms[D] == q:
-        qwert = qwert + q*"q"
+        qwert = q*"q"
+        print(qwert)
     if numms[D] == r:
-        qwert = qwert + r*"r"
+        qwert = r*"r"
+        print(qwert)
     if numms[D] == x:
-        qwert = qwert + x*"x"
+        qwert = x*"x"
+        print(qwert)
     if numms[D] == t:
-        qwert = qwert + t*"t"
+        qwert = t*"t"
+        print(qwert)
     if numms[D] == u:
-        qwert = qwert + u*"u"
+        qwert = u*"u"
+        print(qwert)
     if numms[D] == v:
-        qwert = qwert + v*"v"
+        qwert = v*"v"
+        print(qwert)
     if numms[D] == w:
-        qwert = qwert + w*"w"
+        qwert = w*"w"
+        print(qwert)
     if numms[D] == x:
-        qwert = qwert + x*"x"
+        qwert = x*"x"
+        print(qwert)
     if numms[D] == y:
-        qwert = qwert + y*"y"
+        qwert = y*"y"
+        print(qwert)
     if numms[D] == z:
-        qwert = qwert + z*"z"
-print(qwert)
+        qwert = z*"z"
+        print(qwert)
