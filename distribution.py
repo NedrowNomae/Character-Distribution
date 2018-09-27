@@ -66,7 +66,7 @@ b=0
 n=0
 m=0
 Q = len(letters)
-for W in range(0,Q-1):
+for W in range(0,Q):
     if letters[W] == "q" or letters[W] == "Q":
         q = q + 1
     elif letters[W] == "w" or letters[W] == "W":
