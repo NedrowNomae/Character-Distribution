@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Eamon
-Credit: none
+Credit: stackoverflow
 
 Assignment: character distribution
 
@@ -195,8 +195,8 @@ for D in range(0,A):
     if numms[D] == r:
         qwert = r*"r"
         print(qwert)
-    if numms[D] == x:
-        qwert = x*"x"
+    if numms[D] == s:
+        qwert = s*"s"
         print(qwert)
     if numms[D] == t:
         qwert = t*"t"
