@@ -115,7 +115,7 @@ for W in range(0,Q):
         v = v + 1
     elif letters[W] == "b" or letters[W] == "B":
         b = b + 1
-    elif letters[W] == "N" or letters[W] == "N":
+    elif letters[W] == "n" or letters[W] == "N":
         n = n + 1
     elif letters[W] == "m" or letters[W] == "M":
         m = m + 1
