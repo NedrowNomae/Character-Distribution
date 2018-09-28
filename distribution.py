@@ -141,6 +141,8 @@ for S in ros:
 numms.pop()
 qwert = ""
 A = len(numms)
+bnm = '"'
+print("The distribution of characters in " + bnm + string + bnm + " is: ")
 for D in range(0,A):
     if numms[D] == a:
         qwert = a*"a"
